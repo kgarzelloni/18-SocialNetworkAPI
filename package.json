@@ -1,0 +1,21 @@
+{
+  "name": "18-social-network-api",
+  "description": "MongoDB for social networks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Karrie Garzelloni",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.2.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
