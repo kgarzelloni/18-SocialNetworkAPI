@@ -15,7 +15,7 @@ getAllUsers(req, res) {
   createNewUser(req, res) {
     User.create(req.body)
       .then((user) => res.json(user))
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => res.status(500).json(err))
   },
   // get single user by id
   getSingleUser(req, res) {
